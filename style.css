@@ -1,0 +1,286 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#main-header{
+	width: 1280px;
+	height: 100px;
+	background: black;
+	margin: 0 auto;
+	box-sizing: border-box;
+	border-radius: 30px;
+}
+
+
+#main-header .logo{
+	width: 25%;
+	height: 100%;
+	
+	float: left;
+}
+
+/*.logo img{
+	padding-left: 30px;
+	padding-top: 25px;
+}*/
+
+.logo{
+
+	color: yellow;
+	margin-left: 40px;
+	margin-top: 30px;
+}
+
+#main-header .menu{
+	width: 60%;
+	height: 100%;
+	
+	float: left;
+}
+
+
+#main-menu{
+	list-style-type: none;
+}
+
+#main-menu li{
+	float: left;
+	position: relative;
+}
+
+
+#main-menu li a{
+	background: black;
+	text-decoration: none;
+	padding: 36px 30px;
+	display: block;
+	font-size: 24px;
+	color: yellow;
+}
+
+#main-menu li a:hover{
+	background: yellow;
+	color: black;
+}
+
+
+/*Start dropdown Menu*/
+
+
+#main-menu li ul{
+	list-style-type: none;
+	padding: 0;
+	position: absolute;
+	left: -9999999px;
+	
+}
+
+#main-menu li:hover ul{
+	left: 0;
+}
+
+
+#main-menu li ul li{
+	float: none;
+	width: 250px;
+  	position: relative;
+  	box-sizing: border-box;	
+}
+
+
+
+/*End dropdown Menu*/
+
+
+/*Start Nasted Menu*/
+
+
+#main-menu li ul li ul{
+	list-style-type: none;
+	padding: 0;
+	position: absolute;
+	top: -999999px;
+}
+
+
+#main-menu li ul li:hover ul{
+	top: 0;
+	left: 200px;
+}
+
+/*End Nasted Menu*/
+
+
+#main-header .social-media{
+	width: 15%;
+	height: 100%;
+	
+	float: left;	
+}
+
+
+/*Start Social-Media*/
+
+.social-media .social-media-item{
+	padding-left: 35px;
+	padding-top: 35px;
+	font-size: 30px;
+	color: yellow;
+}
+
+
+
+
+
+/*Main Content*/
+
+#main-content{
+	width: 1280px;
+	height: 500px;
+	background-image: url(https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=600);
+	margin: 0 auto;
+	box-sizing: border-box;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	
+}
+
+
+#main-content h1{
+	padding: 60px;
+	text-align: center;
+	color: yellow;
+}
+
+#main-content h3{
+	padding: 30px 200px;
+	color: yellow;
+	text-align: justify;
+	color: yellow;
+}
+
+/*start hero*/
+
+#hero{
+	width: 1280px;
+	height: 700px;
+	
+	margin: 0 auto;
+}
+
+
+
+
+
+#hero .form{
+	width: 50%;
+	height: 600px;
+	box-sizing: border-box;
+	background-image: url(https://images.pexels.com/photos/1117452/pexels-photo-1117452.jpeg?auto=compress&cs=tinysrgb&w=600);
+	background-size: cover;
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+	float: left;
+	padding: 100px;
+	
+
+	
+}
+
+#hero .form .form-group label{
+	font-size: 20px;
+	color: black;
+}
+
+#hero .form .form-group input{
+	box-sizing: border-box;
+	display: block;
+	width: 100%;
+	padding: 7px;
+	border-radius: 10px;
+	box-shadow: inset 0px 0px 7px green;
+	outline: none;
+	border: none;
+	transition: 4s;
+}
+
+
+.form-group input:focus{
+	box-shadow: inset 0px 0px 7px green, 0px 0px 7px yellow;
+}
+
+
+.star{
+	color: red;
+}
+
+
+.form .button{
+	display: block;
+	background: yellow;
+	text-align: center;
+	width: 100px;
+	padding: 10px;
+	border-radius: 15px;
+	cursor: pointer;
+	margin-top: 15px;
+	font-size: 20px;
+	transform: translateX(150%);
+
+}
+
+
+.form .button:hover{
+	background: green;
+	color: white;
+}
+
+#hero .contract h2{
+	padding: 10px;
+	margin: o auto;
+	display: block;
+	text-align: center;
+	width: 300px;
+}
+
+
+.content{
+	width: 50%;
+	background-image: url(https://images.pexels.com/photos/1216544/pexels-photo-1216544.jpeg?auto=compress&cs=tinysrgb&w=600);
+	background-size: cover;
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+	height: 600px;
+	float: left;
+	
+}
+
+.content h1{
+	display: block;
+	text-align: center;
+	padding: 80px;
+	margin: 0 auto;
+	color: yellow;
+}
+
+
+.content h3{
+	text-align: justify;
+	padding: 80px;
+	color: yellow;
+}
+
+footer{
+	width: 1280px;
+	height: 80px;
+	margin: o auto;
+	float: left;
+	text-align: center;
+	padding: 15px 7px 0px 7px; 
+	color: yellow;
+	font-size: 20px;
+	background: black;
+	border-radius: 30px;
+}
